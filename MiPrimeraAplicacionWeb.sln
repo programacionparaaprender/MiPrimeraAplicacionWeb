@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiPrimeraAplicacionWeb", "MiPrimeraAplicacionWeb\MiPrimeraAplicacionWeb.csproj", "{EC36911D-683D-4413-898F-CA1905CB72EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Archivos", "Archivos", "{86332C1E-D1F7-463C-9006-C1C9A3E5F1C4}"
+	ProjectSection(SolutionItems) = preProject
+		Archivos\BDMATRICULA.sql = Archivos\BDMATRICULA.sql
+		Archivos\clase1ASP.NETMVC.pptx = Archivos\clase1ASP.NETMVC.pptx
+		Archivos\Matricula.zip = Archivos\Matricula.zip
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {557CC335-0569-4EAD-AD22-6EC71766E7D0}
 	EndGlobalSection
 EndGlobal
